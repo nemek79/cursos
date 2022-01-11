@@ -35,3 +35,10 @@ li {
 
 /* clase */
 
+.subtitle {
+    background-color: lightgreen;
+}
+
+.text {
+    background-color: lightskyblue;
+}
