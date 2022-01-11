@@ -1,0 +1,37 @@
+
+/* selector universal - lo selecciona todo <- mucho cuidado */
+
+* {
+    background-color: lightcoral;
+}
+
+/* selectores de etiqueta */
+
+/*
+h1 {
+    background-color: lightcyan;
+}
+
+p {
+    background-color: lightgreen;
+}
+
+ul {
+    background-color: red;
+}
+
+li {
+    background-color: blue;
+}
+*/
+
+/* selectores de atributo */
+
+/* id */
+
+#title {
+    background-color: lightcyan;
+}
+
+/* clase */
+
