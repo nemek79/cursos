@@ -32,6 +32,7 @@
 
 - Selectores compuestos
 
-    - Agrupados
-    - Combinadores
+    - Agrupados <- atributos separados por ','
+    - Combinadores 
+        Selector descendiente <- un selector dentro de otro -> [atributo] [atributo]
     - Pseudoclases - pseudoelementos (más adelante)

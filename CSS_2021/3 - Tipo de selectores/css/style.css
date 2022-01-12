@@ -98,10 +98,18 @@ li {
 }
 */
 
+/*
 .text,
 .text-2,
 .text-3,
 .text-4 {
     background-color: steelblue;
+}
+*/
+
+/* Selectores descendentes */
+
+div h2 {
+    background-color: teal;
 }
 
