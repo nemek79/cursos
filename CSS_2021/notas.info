@@ -35,4 +35,6 @@
     - Agrupados <- atributos separados por ','
     - Combinadores 
         Selector descendiente <- un selector dentro de otro -> [atributo] [atributo]
+        Selector de hermano siguiente <- permite seleccionar el elemento hermano siguiente -> [atributo] + [atributo]
+        Selector de todos los hermanos siguientes <- permite seleccionar todos los elementos hermanos siguientes -> [atributo] ~ // el simbolo es ALTGR + 4
     - Pseudoclases - pseudoelementos (más adelante)

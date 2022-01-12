@@ -109,7 +109,23 @@ li {
 
 /* Selectores descendentes */
 
+/*
 div h2 {
     background-color: teal;
+}
+*/
+
+/* Selector de hermano siguiente */
+
+/*
+.text-2 + h2 {
+    background-color: brown;
+}
+*/
+
+/* Selector de hermanos siguientes */
+
+.text-2 ~ p {
+    background-color: tomato;
 }
 
