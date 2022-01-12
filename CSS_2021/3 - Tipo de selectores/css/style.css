@@ -125,7 +125,14 @@ div h2 {
 
 /* Selector de hermanos siguientes */
 
+/*
 .text-2 ~ p {
     background-color: tomato;
 }
+*/
 
+/* selector de hijo directo */
+
+.container > p {
+    background-color: tomato;
+}
