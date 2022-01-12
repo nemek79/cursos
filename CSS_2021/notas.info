@@ -39,3 +39,21 @@
         Selector de todos los hermanos siguientes <- permite seleccionar todos los elementos hermanos siguientes -> [atributo] ~ // el simbolo es ALTGR + 4
         Selector de hijo directo <- permite seleccionar sólo los hijos directos -> [atributo] > [atributo]
     - Pseudoclases - pseudoelementos (más adelante)
+
+
+* Cómo funciona css
+=========================
+
+- Especificidad -> Establece cómo de específico es un selector para saber qué estilo aplicar.
+                    El cálculo se realiza con la siguiente fórmula:
+
+                     Etiquetas y pseudoelementos -> 001
+                     Clases, atributos, pseduoclases -> 010
+                     Ids -> 100
+                     Estilos en línea -> 1000
+                     !important -> GANA A TODO pero se carga la especificidad <- NO USAR NUNCA -- UTILIZAR SIEMPRE CLASES!
+
+            Cascada -> funciona siempre que la especificidad sobre el elemento sea la misma
+            Herencia  
+
+* como saber si se escribe buen css -> https://jonassebastianohlsson.com/specificity-graph/
