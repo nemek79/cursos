@@ -22,7 +22,13 @@
         
         - id -> id del elemento
         - clase -> clase del elemento
-        - otros atributos
+        - otros atributos -> 
+            [atributo]
+            [atributo=valor]
+            [atributo^=valor] <- comprobar si el atributo empieza por ese valor
+            [atributo*=valor] <- se selecciona el valor que coincida independiente de su posicion
+            [atributo$=valor] <- comprobar si el atributo termina por ese valor
+            [atributo|=valor] <- incluye el valor y valor-...
 
 - Selectores compuestos
 

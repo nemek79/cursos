@@ -1,9 +1,11 @@
 
 /* selector universal - lo selecciona todo <- mucho cuidado */
 
+/*
 * {
     background-color: lightcoral;
 }
+*/
 
 /* selectores de etiqueta */
 
@@ -29,16 +31,46 @@ li {
 
 /* id */
 
+/*
 #title {
     background-color: lightcyan;
 }
+*/
 
 /* clase */
 
+/* 
 .subtitle {
     background-color: lightgreen;
 }
 
 .text {
     background-color: lightskyblue;
+} 
+*/
+
+[href] {
+    background-color: mediumorchid;
 }
+
+[href="https://google.com"] {
+    background-color: yellow;
+}
+
+[href^="#seccion"] {
+    background-color: green;
+}
+
+[href*="modo"] {
+    background-color: red;
+}
+
+[href$="azul"] {
+    background-color: steelblue;
+}
+
+[lang|="en"] {
+    background-color: magenta;
+}
+
+
