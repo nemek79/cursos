@@ -54,6 +54,9 @@
                      !important -> GANA A TODO pero se carga la especificidad <- NO USAR NUNCA -- UTILIZAR SIEMPRE CLASES!
 
             Cascada -> funciona siempre que la especificidad sobre el elemento sea la misma
-            Herencia  
+            Herencia  -> Es la capacidad que tienen algunos elementos de heredar algunas propiedades de sus elementos 
+                         contenedores (padres, abuelos, etc)
+                         Para forzar la herencia en los elementos que no la tienen por defecto usamos -> inherit
+                         Para evitar que un elemento herede una propiedad por defecto usamos -> inital
 
 * como saber si se escribe buen css -> https://jonassebastianohlsson.com/specificity-graph/

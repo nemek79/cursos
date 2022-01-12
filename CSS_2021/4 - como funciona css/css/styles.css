@@ -1,5 +1,6 @@
-/* diferentes maneras de aplicar estilos al h1 */
+/* diferentes maneras de aplicar estilos al h1 <- especificidad*/
 
+/*
 h1.title#title {
     background-color: tomato;
 }
@@ -22,5 +23,36 @@ h1.title {
 
 h1#title {
     background-color: teal;
+}
+*/
+
+/* Herencia */
+
+body {
+    background-color: #333;
+}
+
+.title {
+    /* propiedades que se heredan */
+    color: cyan;
+    font-size: 10px;
+}
+
+.text {
+    color: red; /* los links no heredan de las propiedades de su padre */
+}
+
+.link {
+    color: inherit; /* forzamos la herencia de la clase padre, en este caso de .text */
+}
+
+/* tenemos una lista que sus elementos heredan todos, por defecto, el color de texto */
+.list {
+    color: indianred;
+}
+
+/* queremos evitar que un elemento herede una propiedad por defecto */
+.list-item-extra {
+    color: initial;
 }
 
