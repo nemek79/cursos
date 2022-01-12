@@ -49,6 +49,10 @@ li {
 } 
 */
 
+/* Otros atributos */
+
+/*
+
 [href] {
     background-color: mediumorchid;
 }
@@ -72,5 +76,32 @@ li {
 [lang|="en"] {
     background-color: magenta;
 }
+*/
 
+/* selectores agrupados */
+
+/*
+.text {
+    background-color: steelblue;
+}
+
+.text-2 {
+    background-color: steelblue;
+}
+
+.text-3 {
+    background-color: steelblue;
+}
+
+.text-4 {
+    background-color: steelblue;
+}
+*/
+
+.text,
+.text-2,
+.text-3,
+.text-4 {
+    background-color: steelblue;
+}
 
