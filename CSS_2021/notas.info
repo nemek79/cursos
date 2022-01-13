@@ -60,3 +60,9 @@
                          Para evitar que un elemento herede una propiedad por defecto usamos -> inital
 
 * como saber si se escribe buen css -> https://jonassebastianohlsson.com/specificity-graph/
+
+* Normalizar estilos de los navegadores
+==========================================
+
+https://necolas.github.io/normalize.css/
+
