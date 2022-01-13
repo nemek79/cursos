@@ -59,10 +59,21 @@
                          Para forzar la herencia en los elementos que no la tienen por defecto usamos -> inherit
                          Para evitar que un elemento herede una propiedad por defecto usamos -> inital
 
-* como saber si se escribe buen css -> https://jonassebastianohlsson.com/specificity-graph/
+- como saber si se escribe buen css -> https://jonassebastianohlsson.com/specificity-graph/
+
 
 * Normalizar estilos de los navegadores
 ==========================================
 
 https://necolas.github.io/normalize.css/
+
+* Prefijos propietarios
+==========================================
+
+- ayuda a poner los prefijos automaticamente -> https://autoprefixer.github.io/
+- programa que pone automaticamente los prefijos -> https://prepros.io/
+
+
+
+
 
