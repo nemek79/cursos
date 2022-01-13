@@ -73,7 +73,19 @@ https://necolas.github.io/normalize.css/
 - ayuda a poner los prefijos automaticamente -> https://autoprefixer.github.io/
 - programa que pone automaticamente los prefijos -> https://prepros.io/
 
+* Box model
+==============================
 
+- las cajas se componen principalmente de:
+ 
+        * contenido
+        * borde
+        * padding
+        * margin
+        * width
+        * height
+
+        
 
 
 
