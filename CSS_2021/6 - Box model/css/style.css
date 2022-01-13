@@ -3,15 +3,39 @@ body {
     color: #fff;
 }
 
+.title {
+    margin-left: auto; /* no se va a la derecha porque no tiene width definido*/
+}
+
 .block {
     background-color: purple;
     width: 200px;
     height: 200px;
+    /* margin: 100px 50px 10px 200px; */
+    margin-left: auto;
+}
+
+.block-center {
+    background-color: pink;
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .inline {
     background-color: lightcoral;
     color: inherit;
-    width: 200px; /* con esta propiedad, al ser un elemento inline , no pasa nada */
-    height: 200px; /* con esta propiedad, al ser un elemento inline , no pasa nada */
+    /* con estas propiedades (width/height, al ser un elemento inline , no pasa nada */
+    /*
+    width: 200px; 
+    height: 200px; 
+    */
+    /* las propiedades top y bottom del margin para elementos inline no funcionan
+    margin-top: 200px;
+    margin-bottom: 200px;
+    */
+    /* los márgenes horizontales si funcionan para los elementos en linea */
+    margin-right: 100px;
+    margin-right: 50px;
 }

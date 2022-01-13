@@ -85,13 +85,39 @@ https://necolas.github.io/normalize.css/
         * width
         * height
 
-  # Alto & Ancho
+    # Alto & Ancho
 
-    - Width -> Ancho
-    - Height -> Alto
+        - Width -> Ancho
+        - Height -> Alto
 
-    - Para los elementos en bloque establecen el ancho y el alto
-    - Los elementos en línea no tienen medidas, el tamaño lo determina su contenido   
+        - Para los elementos en bloque establecen el ancho y el alto
+        - Los elementos en línea no tienen medidas, el tamaño lo determina su contenido
+
+    # Margin
+
+        - Es la propiedad que nos permite generar espacio entre elementos.
+        - Es un shorthand que controla los cuatro lados posibles a los que dar márquenes.
+        - margin-top: Margen superior
+        - margin-right: Margen derecho
+        - margin-bottom: Margen inferior
+        - margin-left: Margen derecho
+        - Admite hasta cuatro valores que van en el orden de las agujas del reloj:
+            4 valores -> top right bottom left
+            3 valores -> top left/right bottom
+            2 valores -> top/bottom left/right
+            1 valor -> top/right/bottom/left
+
+        - En los elementos en línea los margin top/bottom (verticales) no funcionan
+        - En los elementos en línea los margin left/right (horizontales) si funcionan
+
+        - Para los elementos en bloque: (IMPORTANTE: debe ser de bloque y se debe haber establecido el ancho (width))
+
+            margin-right: auto; <- pegamos el elemento a la izquierda
+            margin-left: auto; <- pegamos el elemento a la derecha
+
+            si declaremos las dos a auto al mismo tiempo centramos el elemento
+
+    
 
 
 
