@@ -85,7 +85,13 @@ https://necolas.github.io/normalize.css/
         * width
         * height
 
-        
+  # Alto & Ancho
+
+    - Width -> Ancho
+    - Height -> Alto
+
+    - Para los elementos en bloque establecen el ancho y el alto
+    - Los elementos en línea no tienen medidas, el tamaño lo determina su contenido   
 
 
 
