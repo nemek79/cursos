@@ -156,7 +156,7 @@ https://necolas.github.io/normalize.css/
             - Es un shorthand que engloba cuatro propiedades (border-top-left-radius, border-top-right-radius...)
             - Si sólo recibe un valor dibjará un círculo en cada vértice del radio que especifiquemos
             - Si utilizamos el border-radius como shorthand hay diferencias entre si queremos dar un valor a cada lado (círculo) o dos (elipse)
-            
+
         
     # Box-sizing
 
@@ -169,4 +169,15 @@ https://necolas.github.io/normalize.css/
             *{ box-sizing: border-box}
 
 
+* Overflow
+==============================
 
+- Decimos que un contenido se desborda cuando la caja es más pequeña que el contenedor
+- Es la propiedad que controla qué debe haer la caja cuando su contenido se desborda del contenedor
+- Es un shorthand de overflow-x y overflow-y
+- Tiene cuatro valores posibles:
+    visible -> es el valor por defecto
+    hidden -> El contenido que se desborde no se verá. Si aplicamos este propiedad en un solo eje, el otro se pondrá automaticamente en el valor scroll.
+    scroll -> aparecerán barras de scroll en el eje asignado
+    auto -> aparecerán barras de scroll en el caso de que hicieran falta
+    
