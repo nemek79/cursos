@@ -117,6 +117,13 @@ https://necolas.github.io/normalize.css/
 
             si declaremos las dos a auto al mismo tiempo centramos el elemento
 
+        - Malas prácticas:
+
+            * { margin: 0; padding: 0}
+            para centrar un elemento no ulizar: margin: 0 auto / usar -> margin-left: auto; margin-right: auto;
+            se recomienda body { margin: 0} <- el padding: 0 no es util ya que no por defecto no tiene padding
+
+
     
 
 
