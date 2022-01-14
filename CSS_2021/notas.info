@@ -142,5 +142,14 @@ https://necolas.github.io/normalize.css/
         - Si el objetivo es separar la caja de los elementos que la rodean -> margin
         - Si el objetivo es automentar el temaño de la caja y separar los bordes del contenido -> padding
         
+    # Border
+
+        - Es la propiedad que nos permite modificar el borde de la caja
+        - Es un shorthand que agrupa tres propiedades
+        - border-width: ancho del borde <- shorthand (border-top-width...)
+        - border-style: estilo del borde <- shorthand (border-top-style...)
+        - border-color: color del borde <- shorthand (border-top-color...)
+
+        
 
 

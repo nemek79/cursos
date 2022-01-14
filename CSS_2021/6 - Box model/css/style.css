@@ -52,4 +52,5 @@ body {
     margin-left: 100px; /* separamos el botón del borde izquierdo */
     /* aumentamos el tamaño interno del botón */
     padding: 25px 50px;
+    border: 10px solid red;
 }
