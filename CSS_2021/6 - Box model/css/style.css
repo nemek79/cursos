@@ -40,3 +40,16 @@ body {
     margin-right: 100px;
     margin-right: 50px;
 }
+
+.buttons {
+    background-color: steelblue;
+    /* Aumentamos la caja contenedora del botón */
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.button {
+    margin-left: 100px; /* separamos el botón del borde izquierdo */
+    /* aumentamos el tamaño interno del botón */
+    padding: 25px 50px;
+}
