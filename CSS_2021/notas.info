@@ -149,7 +149,16 @@ https://necolas.github.io/normalize.css/
         - border-width: ancho del borde <- shorthand (border-top-width...)
         - border-style: estilo del borde <- shorthand (border-top-style...)
         - border-color: color del borde <- shorthand (border-top-color...)
-
         
+    # Box-sizing
+
+        - Es la propiedad que nos permite controlar el cálculo que hace el navegador a la hora de modificar las popiedades content, padding y border.
+        - Los dos valores que podemos dar son:
+            content-box -> Valor por defecto
+            border-box -> cálculo de tamaño del elemento incluyendo el padding y el border
+
+        - buena practica:
+            *{ box-sizing: border-box}
+
 
 
