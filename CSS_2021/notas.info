@@ -149,6 +149,14 @@ https://necolas.github.io/normalize.css/
         - border-width: ancho del borde <- shorthand (border-top-width...)
         - border-style: estilo del borde <- shorthand (border-top-style...)
         - border-color: color del borde <- shorthand (border-top-color...)
+
+        * Border-radius
+
+            - Es la propiedad que nos permite redondear vertices de forma independiente
+            - Es un shorthand que engloba cuatro propiedades (border-top-left-radius, border-top-right-radius...)
+            - Si sólo recibe un valor dibjará un círculo en cada vértice del radio que especifiquemos
+            - Si utilizamos el border-radius como shorthand hay diferencias entre si queremos dar un valor a cada lado (círculo) o dos (elipse)
+            
         
     # Box-sizing
 
