@@ -244,3 +244,30 @@ https://necolas.github.io/normalize.css/
 - https://www.codesdope.com/blog/article/10-amazing-effects-you-can-create-using-box-shadow/
 
 
+* Position
+============================
+
+- nos permite posicionar los elementos.
+- Flujo de renderizado -> Por normal general los elementos se dibujan de izquierda a derecha y de arriba a abajo. El punto 0,0 de los elementos, por norma general,
+                            es la esquina superior izquierda.
+- Espacio reservado -> Es el espacio que tiene un elemento asignado en el navegador.
+- Elemento posicionado -> Significa que el elemento tiene la propiedad position con un valor distinto de "static", que es el valor que tiene esta propiedad por defecto.
+- Stackin context -> contexto de apilamiento. es el orden en el que se aplilarán las cajas que se superponen.
+- Al posicionar un elemento se habilitan cinco propiedades que podemos utlizar para mover los elementos en los tres ejes
+    top -> el elemento se moverá desde la parte superior en la distancia que hayamos indicado
+    right -> El elemento se moverá desde la parte derecha la distancia que hayamos indicado
+    bottom -> ...
+    left -> ...
+    z-index -> nos permite mover el elemento en el contexto de apilamiento (eje-z)
+    NOTA: si a un elemento le declaramos la propiedad top y/o left, las propiedades bottom y/o right no funcionarán
+- Los posibles valores que podemos dar son:
+    static -> por defecto, con este valor el elemento NO ESTÁ POSICIONADO y por tanto no podremos moverlo
+    relative -> el elemento mantiene su posición y medidas en el flujo de renderizado y mantendrá su espacio reservado. Si lo movemos lo hará usando su posición en el 
+                html como punto de referencia
+    absolute -> el elemento perderá sus medidas y su espacio reservado. Si lo movemos usará el elemento padre posicionado como referencia. si no tiene ninguno, usará el
+                elemento html de referencia
+    fixed -> el elemento perderá sus medidas y su espacio reservado. si lo movemos usará el elemento html de referencia y además se quedará fijo en esa posición, aunque
+            hagamos scroll
+    sticky -> es una meza de relative y fixed. los valores top, left, bottom y right no sriven para mover el elemento, sirven para indicarle en qué punto pasará a tener un 
+                comportamiento de posicionamiento fixed, hasta llegar a ese punto se comportará como si tuviera relative.
+
