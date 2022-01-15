@@ -194,3 +194,14 @@ https://necolas.github.io/normalize.css/
     1. darle al contenedor un overflow: hidden;
     2. añadir un padding-top al padre de cualquier tamaño (por ejemplo: 0.1 px)
     3. añadir border-top aunque sea de 0.1px
+
+* Display
+============================
+
+- sirve para cambiar el contexto de los elemento sdentro del navegador
+- Admite varios valores
+    none -> hace que el elemento no se muestre, pero sigue cargandose
+    block -> Hace que el elemento sea de bloque
+    inline -> Hace que el elemento sea de línea
+    inline-block -> Hace que el elemento sea de línea pero admite medidas y márgenes verticales
+    
