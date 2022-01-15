@@ -181,3 +181,16 @@ https://necolas.github.io/normalize.css/
     scroll -> aparecerán barras de scroll en el eje asignado
     auto -> aparecerán barras de scroll en el caso de que hicieran falta
     
+* Colapsado de márgenes
+==============================
+
+- problema: si tenemos una caja con un margin-bottom de 20 pixeles y debajo de ella otra con un margin-top de otros 20px, la lógica es que la separación entre
+            ellas fuera de 40 px, pero en realidad se queda en 20px, ya que los márgenes verticales colapsan (se solpan)
+- lo que se recomienda es dar margin bottom a los elementos e ir bajando el resto de elementos, ir empujando los elementos hacia abajo con margin-bottom.
+- en los horizontales no pasa
+
+- otro problema es el colapsado de márgenes entre padres e hijos, en el ejemplo al meter el h1 en el header, el header se separa del top de la página
+- en el ejemplo lo solucionamos con tres trucos diferentes:
+    1. darle al contenedor un overflow: hidden;
+    2. añadir un padding-top al padre de cualquier tamaño (por ejemplo: 0.1 px)
+    3. añadir border-top aunque sea de 0.1px
