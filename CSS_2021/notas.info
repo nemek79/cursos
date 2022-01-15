@@ -226,3 +226,21 @@ https://necolas.github.io/normalize.css/
     text-align: center;
     text-align: jusrify; <- No es recomendable
 - las imagenes por defecto son display: inline-block, para centrar una imagen hay que poner display: block
+
+* Box shadow
+============================
+
+- se creo para añadir efectos de sombra a la caja
+- en esencia lo que hace es crear un clon de la caja respetando la forma de su box-model
+- la sintaxis se puede escribir de distintas formas según lo que queramos conseguir
+- los valores posibles
+    offset-x -> desplazamiento en x (obligatorio)
+    offset-y -> desplazamiento en y (obligatorio)
+    blur-radius -> desenfoque de la sombra
+    spread-radius -> expansión de la sombra
+    color -> color de la sombra, si no se especifica lo heredará  del elemento al que pertenece
+    inset -> determina si la sombra será interior o exterior
+- box shadow no ocupa sitio en el modelo (box model)
+- https://www.codesdope.com/blog/article/10-amazing-effects-you-can-create-using-box-shadow/
+
+
