@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #333;
+    color: #fff;
+}
+
+.text {
+    background-color: lightblue;
+    text-align: center;
+    color: purple;
+}
+
+.box {
+    background-color: #666;
+    width: 100px;
+    padding: 10px 0;
+    margin: 20px 0;
+    border: 2px solid lightcoral;
+    text-align: center; /* el contenido no tiene ancho definido */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.link {
+    color: #fff;
+    text-align: center; /* no pasa nada porque se centra en contenedores de bloque */
+    display: block; /* con esto convertimos en bloque y ya se va a centrar , con inline-block no funciona*/
+    margin-bottom: 20px;
+    background-color: aliceblue;
+    color: purple;
+}
+
+.img-container {
+    text-align: center;
+}

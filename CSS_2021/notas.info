@@ -215,3 +215,14 @@ https://necolas.github.io/normalize.css/
     No se puede redondear
     No se pueden controlar los lados de forma independiente
 - tambien cuenta con la propiedad outline-offset, que nos permite aumenta o disminuir la distancia del outline en relacion a la caja a la que pertenece
+
+* Text align
+============================
+
+- es la propiedad que nos permite alinear horizontalmente el contenido de un elemento de bloque siempre que el contenido NO TENGA ANCHO DECLARADO
+- acepta cuatro posibles valores
+    text-align: left;
+    text-align: right;
+    text-align: center;
+    text-align: jusrify; <- No es recomendable
+- las imagenes por defecto son display: inline-block, para centrar una imagen hay que poner display: block
