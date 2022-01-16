@@ -284,7 +284,7 @@ https://necolas.github.io/normalize.css/
                 comportamiento de posicionamiento fixed, hasta llegar a ese punto se comportará como si tuviera relative.
 
 
-* Ordenador propiedades
+* Ordenación de propiedades
 ============================
 
 - es importante, no existe ninguna norma ni especificacion sobre cómo hacerlo, pero la mayoría de los expertos coinciden en los mismo puntos:
@@ -294,5 +294,16 @@ https://necolas.github.io/normalize.css/
     3. Propiedades de texto
     4. Propiedades visuales (colores, bordes, background...)
     5. Resto de propiedades
-    
 
+* Medidas
+============================
+
+- se pueden agrupar en absolutas y relativas
+- absolutas
+    NO CAMBIAN y siempre mantendrán su tamaño, independientemente del dispositivo o la interacción con el usuario
+    La más usada es px cuya mediad es 1/96 de 1in, pero existen otras como: cm, mm,Q, in, pc, pt
+- relativas
+    SIEMPRE dependen de un contexto, son las que se recomienda utilizar en la gran mayoría de ocasiones porque nos van a permitir que todos los 
+    elementos escalen proporcionalmente
+    las más usadas son em, rem, %, vw, vh, vmin y vmax, pero existen otras como: ex, ch, lh
+    
