@@ -6,25 +6,36 @@ body {
     margin: 0;
     background-color: #333;
     color: #fff;
-    padding-top: 75px; /* <- para solucionar la perdida del espacio del header */
+    /*padding-top: 75px; /* <- para solucionar la perdida del espacio del header */
+}
+
+img {
+    width: 100%;
+    display: block;
 }
 
 .header {
     text-align: center;
-    padding: 25px 0;
+    /* padding: 25px 0; */
     background-color: lightskyblue;
     color: orangered;
-    position: fixed; /* pierde sus medidas y su espacio */
-    top: 0;
-    /* para hacer que el elemento ocupe todo el ancho, varias opciones */
-    width: 100%;
-    /* para solucionar el tema del espacio y que nos hemos comido el h1 -> padding-top al boddy */
-
+    /* position: sticky;
+    top: 0; /* cuando el header esté a 0 px del top, se empiece a comportar similar a fixed */
+    height: 200px; /* añadimos este height para ver como funciona el sticky del menu */
 }
 
-.link {
-    position: fixed;
-    background-color: lightcoral;
-    width: 200px;
+/*
+.menu {
+    /* esto no funciona como esperamos ya que se basa en el alto del elemento que lo contiene, en este caso el header que no tiene height 
+    position: sticky;
+    top: 0;
+}
+*/
+
+.article-title {
+    position: sticky;
+    top: 0px;
+    background-color: #333;
+    margin: 0;
 }
 
