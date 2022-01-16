@@ -253,6 +253,13 @@ https://necolas.github.io/normalize.css/
 - Espacio reservado -> Es el espacio que tiene un elemento asignado en el navegador.
 - Elemento posicionado -> Significa que el elemento tiene la propiedad position con un valor distinto de "static", que es el valor que tiene esta propiedad por defecto.
 - Stackin context -> contexto de apilamiento. es el orden en el que se aplilarán las cajas que se superponen.
+                     es el espacio donde nuestros elementos se van a ir apilando para que unos queden por detrás y otros por delante
+                     el orden es:
+                        elementos posicionados con un z-index de 1 o más
+                        elementos posicionados sin z-index o auto
+                        elementos no posicionados
+                        elementos con z-index negativo
+                    puede haber diferentes contextos de apilamiento dependiendo de las propiedades que se le dan a los elementos
 - Al posicionar un elemento se habilitan cinco propiedades que podemos utlizar para mover los elementos en los tres ejes
     top -> el elemento se moverá desde la parte superior en la distancia que hayamos indicado
     right -> El elemento se moverá desde la parte derecha la distancia que hayamos indicado
