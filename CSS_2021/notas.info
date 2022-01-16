@@ -267,6 +267,8 @@ https://necolas.github.io/normalize.css/
                 podemos obligar a los elementos a ocupar un mismo espacio
     absolute -> el elemento perderá sus medidas y su espacio reservado. Si lo movemos usará el elemento padre posicionado como referencia. si no tiene ninguno, usará el
                 elemento html de referencia
+                lo importante es que el contenedor está posicionado (da igual el tipo) y no hace falta que el elemento sea hijo directo del contenedor
+                cuando se le da absolute a un elemento en linea se genera un contexto de bloque automaticamente y poder darle medidas (ya se le puede dar medidas, margenes...)
     fixed -> el elemento perderá sus medidas y su espacio reservado. si lo movemos usará el elemento html de referencia y además se quedará fijo en esa posición, aunque
             hagamos scroll
     sticky -> es una meza de relative y fixed. los valores top, left, bottom y right no sriven para mover el elemento, sirven para indicarle en qué punto pasará a tener un 
