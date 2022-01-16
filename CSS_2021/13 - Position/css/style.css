@@ -7,3 +7,22 @@ body {
     color: #fff;
 }
 
+.box {
+    width: 100px;
+    height: 100px;
+}
+
+.box-1 {
+    background-color: lightcoral;
+    position: relative;
+    border-radius: 50px;
+    top: 100px;
+    left: 100px;
+
+}
+
+.box-2 {
+    background-color: lightgreen;
+    position: relative;
+
+}

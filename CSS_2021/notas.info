@@ -264,10 +264,14 @@ https://necolas.github.io/normalize.css/
     static -> por defecto, con este valor el elemento NO ESTÁ POSICIONADO y por tanto no podremos moverlo
     relative -> el elemento mantiene su posición y medidas en el flujo de renderizado y mantendrá su espacio reservado. Si lo movemos lo hará usando su posición en el 
                 html como punto de referencia
+                podemos obligar a los elementos a ocupar un mismo espacio
     absolute -> el elemento perderá sus medidas y su espacio reservado. Si lo movemos usará el elemento padre posicionado como referencia. si no tiene ninguno, usará el
                 elemento html de referencia
     fixed -> el elemento perderá sus medidas y su espacio reservado. si lo movemos usará el elemento html de referencia y además se quedará fijo en esa posición, aunque
             hagamos scroll
     sticky -> es una meza de relative y fixed. los valores top, left, bottom y right no sriven para mover el elemento, sirven para indicarle en qué punto pasará a tener un 
                 comportamiento de posicionamiento fixed, hasta llegar a ese punto se comportará como si tuviera relative.
+
+
+    # relative
 
