@@ -306,4 +306,23 @@ https://necolas.github.io/normalize.css/
     SIEMPRE dependen de un contexto, son las que se recomienda utilizar en la gran mayoría de ocasiones porque nos van a permitir que todos los 
     elementos escalen proporcionalmente
     las más usadas son em, rem, %, vw, vh, vmin y vmax, pero existen otras como: ex, ch, lh
+
+- rem -> Corresponde a la medida de la "m" de la raiz del documento (html)
+- em -> Corresponde a la medida de la "m" del contexto donde nos encontremos.
+
+- El estándar del tamaño de fuente por defecto en la raiz del documento es 16px, y NO ES RECOMENDABE MODIFICARLO.
+
+- NOTA: Tanto em como rem se calcula en base a la propiedad font-size (tamaño de fuente)
+
+- ejemplo: 1rem = 16px
+
+- Recomendaciones:
+
+ Para tamños de fuentes usar SIEMPRE rem, porque asi no habra problemas con el contexto en el que nos encontremos
+
+ Por ejemplo, para dejar espacio al texto de un boton el padding va en em, igual que el border mientras que la fuente va en rem
+ 
+  
+
+
     
