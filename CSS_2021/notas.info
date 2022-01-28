@@ -321,7 +321,9 @@ https://necolas.github.io/normalize.css/
  Para tamños de fuentes usar SIEMPRE rem, porque asi no habra problemas con el contexto en el que nos encontremos
 
  Por ejemplo, para dejar espacio al texto de un boton el padding va en em, igual que el border mientras que la fuente va en rem
- 
+
+ - % -> usamos de referencia el tamaño del contenedor y el navegador calcula ese porcentage. Esto no ocurre cuando usamos transform.
+ - auto -> le pedimos al navegador que calcule en función del espacio disponible
   
 
 
