@@ -351,6 +351,17 @@ https://necolas.github.io/normalize.css/
         1vh = 1% del alto del viewport.
         1vmin = 1% del valor que sea más pequeño del viewport
         1vmax = 1% del valor que sea más grande del viewport
+
+- Limitadores al ANCHO y ALTO
+
+    Cuando establecemos un width y/o un height con una medida que es relativa, es posible que no queramos que se 
+    respete esa medida en todos los casos.
+    Para ello tenemos propiedades que limitan esas medidas:
+
+        min-width: Indica el ancho mínimo que puede alcanzar el elemento.
+        max-width: Indica el ancho máximo que puede alcanzar el elemento.
+        min-height: Indica el alto mímino que puede alcanzar el elemento.
+        max-height: Indica el alto máximo que puede alcanzar el elemento.
         
 
 
