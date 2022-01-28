@@ -339,7 +339,19 @@ https://necolas.github.io/normalize.css/
 
 - NOTA: Height es una propiedad que hay que usar con cuidado, si no es necesario establecer un alto es mejor que el contenido sea el que lo establezca.
 
+- VIEWPORT 
+    Es el área útil donde se mostrará la página web. IMPORTANTE: es el área visible sin hacer scroll.
+    Podemos usar el viewport como medida de varias formas:
+        vw -> viewport width, hace referencia al ancho del viewport.
+        vh -> viewport height, hace referencia al alto del viewport.
+        vmax -> utiliza el valor más grande entre el ancho y el alto del viewport.
+        vmin -> utiliza el valor más pequeños entre el anche y el alto del viewport.
 
+        1vw = 1% del ancho del viewport.
+        1vh = 1% del alto del viewport.
+        1vmin = 1% del valor que sea más pequeño del viewport
+        1vmax = 1% del valor que sea más grande del viewport
+        
 
 
     
