@@ -322,9 +322,24 @@ https://necolas.github.io/normalize.css/
 
  Por ejemplo, para dejar espacio al texto de un boton el padding va en em, igual que el border mientras que la fuente va en rem
 
- - % -> usamos de referencia el tamaño del contenedor y el navegador calcula ese porcentage. Esto no ocurre cuando usamos transform.
- - auto -> le pedimos al navegador que calcule en función del espacio disponible
-  
+
+ - WIDTH
+    % -> usamos de referencia el tamaño del contenedor y el navegador calcula ese porcentage. Esto no ocurre cuando usamos transform.
+    auto -> le pedimos al navegador que calcule en función del espacio disponible
+
+- HEIGHT
+    % -> cuando estamos dentro de un contenedor este tiene que tener un alto declarado, sino no podrá calcular el porcentaje.
+         si se le aplica una medida con porcentaje se sustituirá automáticamente por auto.
+        si en el elemento usamos el position absolute o fixed, ya no se calcula el alto respecto al contenedor, se calcula automaticamente
+        en base al viewport (todo el espacio visible que tenemos)
+    
+    auto -> la medida la calcula el navegador en base al contenido al elemento.
+
+
+
+- NOTA: Height es una propiedad que hay que usar con cuidado, si no es necesario establecer un alto es mejor que el contenido sea el que lo establezca.
+
+
 
 
     
