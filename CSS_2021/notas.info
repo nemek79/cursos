@@ -437,7 +437,25 @@ https://necolas.github.io/normalize.css/
      - https://htmlcolorcodes.com/
      - https://colorhunt.co/
      - https://color.adobe.com/es/create/color-wheel
-     
+
+
+* Tipografias
+============================
+
+- La tipografía es la ciencia que estudia el diseño y uso de los tipos de letra
+- Las fuentes son tipos especificos de letra
+- Los glifos son cada uno de los dibujos que representan cada símbolo de la fuente, incluidos los espacios.
+- Los estilos de fuente son las modificaciones que se hacen a las fuentes, como el grosor o la inclinación.
+- La familia tipográfica son las diferentes fuentes que pertenecen a una misma fuente base
+- cuando usamos una propiedad text-* estamos afectando a un bloque completo
+- cuando usamos una propiedad font-* afectamos a la fuente del texto
+- Fuentes predeterminadas, son las fuentes que se consideran seguras ya que son genéricas y no establecen una 
+  familia tipográfica sino un estilo de fuente.
+  serif: Fuentes que tienen serifas (adornos en los caracteres) [recomendado para títulos]
+  sans-serif: Fuentes sin serifas
+  monospace: Fuentes que tienen el mismo espacio entre todos sus caracteres.
+  cursive: Fuentes que pretendían emular escritura a mano, con ligadores y trazos fluidos
+  fantasy: Fuentes que suelen ser decorativa
 
 
 
