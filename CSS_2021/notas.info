@@ -377,4 +377,15 @@ https://necolas.github.io/normalize.css/
 - CurrentColor: Es una plabra clave que se puede usar en lugar de cualquier valor de color y usará el valor
                 establecido o heredado en la propiedad.
 
+- RGB / RGBA
+
+    En el modo rgb tenemos tres canales (Red,Green,Blue) y tenemos 8 bits de color por canal. (0-255)
+    Esto nos da un total de 255 * 255 * 255 = 16.581.375 colores
+    Su sintaxis es rgb(R,G,B)
+    Si ponemos todos los canales a 0 tendremos un negro puro y si los ponemos a 255 tenemos un blanco
+    Para movernos por la gama de grises debemos poner los tres canales con el mismo valor, a 128 es el gris puro
+    El modo RGB nos da la posibilidad de usar un cuarto canal, que sería el canal alpha, es decir, la transparencia
+    y su valor va desde 0 a 1. Tenemos dos sintaxis para utilizar el canal alpha:
+    rgba(R,G,B,A)
+    rgb(R G B / A)
     
