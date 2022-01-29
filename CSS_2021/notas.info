@@ -388,4 +388,13 @@ https://necolas.github.io/normalize.css/
     y su valor va desde 0 a 1. Tenemos dos sintaxis para utilizar el canal alpha:
     rgba(R,G,B,A)
     rgb(R G B / A)
-    
+
+- HEXADECIMAL
+
+    Es la más común en desarrollo web.
+    Se basa en los mismo principios que el RGB pero escrito en notación hexadecimal.
+    Es un sistema basado en 16 valores usado los digítos del 0-9 y los caracteres de la A a la F
+    Para indicar que vamos a usar notación hexadecimal debemos usar el símbolo de hash/almohadilla # -> #RRGGBB
+    Cuando una pareja usa el mismo valor se puede omitir el segundo valor siempre que se haga en las tres parejas
+    rgb(255,255,255) -> #FFFFFF -> #FFF
+
