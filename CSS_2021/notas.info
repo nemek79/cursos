@@ -363,6 +363,15 @@ https://necolas.github.io/normalize.css/
         min-height: Indica el alto mímino que puede alcanzar el elemento.
         max-height: Indica el alto máximo que puede alcanzar el elemento.
         
+* Colores
+============================
 
+- la mayoría de las pantallas funcionan con un modo de color aditivo. La suma de RGB da como resultado un blanco.
+- tenemos varias formas de dar color en css
+
+- keywords -> palabras clave que representan colores
+            https://www.w3.org/wiki/CSS/Properties/color/keywords
+
+- Importante: existe el color "transparent"
 
     

@@ -5,25 +5,29 @@
 body {
     background-color: #333;
     color: lightcoral;
+    /* truco para colocar el footer abajo */
+    position: relative;
+    margin: 0;
+    min-height: 100vh; /* para hacer que el body crezca toda la pantalla */
+}
+
+p {
     margin: 0;
 }
 
-.box {
-    /* width: 100%; */
-    width: auto;
-    margin: 0 20px; /* al añadir este margin, creamos un scroll horizontal indeseado si tenemos el width: 100, la solucion es width: auto*/
-    height: 200px;
-    background-color: lightgreen;
-}
+footer {
 
-.box-children {
-   /* width: 100%;
-    margin-left: 50px;*/ /* hace que se salga de la caja, ya que mueve el (100% width) */
-    /* utilizar width auto para hacer que se extienda todo lo que pueda en funcion del espacio disponible
-       en este caso, dejara libre los 50px por la izquierda pero no se saldrá por la derecha (desbordando) */
-    width: auto;
-    margin-left: 50px;
-    height: 50%;
-    background-color: lightblue;   
-}
+    /* para colocar abajo del todo */
+    position: absolute;
+    bottom: 0;
+    /* hasta aqui vale si no tenemos que hacer scroll */
+
+    /* fin colocar abajo */
+
+    width: 100%;
+    padding: 1rem 0;
+    color: white;
+    background-color: lightseagreen;
+    text-align: center;
+} 
 
