@@ -374,4 +374,7 @@ https://necolas.github.io/normalize.css/
 
 - Importante: existe el color "transparent"
 
+- CurrentColor: Es una plabra clave que se puede usar en lugar de cualquier valor de color y usará el valor
+                establecido o heredado en la propiedad.
+
     
