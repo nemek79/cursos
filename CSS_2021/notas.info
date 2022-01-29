@@ -457,5 +457,10 @@ https://necolas.github.io/normalize.css/
   cursive: Fuentes que pretendían emular escritura a mano, con ligadores y trazos fluidos
   fantasy: Fuentes que suelen ser decorativa
 
+- FUENTES DESDE SERVIDOR REMOTO: Son fuentes que se encuentran en un servidor y que nosotros descargamos para su
+    uso. La más famosa es Google fonts
 
+    Siempre que utilicemos fuentes no genéricas debemos poner fuentes genéricas de fallback (respaldo)
+
+    Google Fonts: https://fonts.google.com/
 

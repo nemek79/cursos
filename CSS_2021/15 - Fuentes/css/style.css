@@ -1,0 +1,12 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #333;
+    color: lightcoral;
+    font-family: 'Roboto', sans-serif; /* sans-serif es la fuente de respaldo */
+    font-weight: 700;
+}
+
+
