@@ -511,4 +511,23 @@ https://necolas.github.io/normalize.css/
 
             Podemos añadirle más valores si queremos, como font-style, font-weight, y font-display(experimental), pero son opcionales.
 
-    
+        - https://1000fonts.com/
+        - https://www.dafont.com/es/
+
+
+- TRANSFORMACIONES DE FUENTES
+
+    text-transform: Esta propiedad nos permite hacer transformaciones ESTETICAS en nuestro texto.
+        none: No se aplicará ninguna transformación
+        uppercase: El texto se pondrá en mayúsculas
+        lowercase: El texto se pondrá en minúsculas
+        capitalize: La primera letra de cada palabra a mayúsculas
+
+    text-shadow: funciona exactamente igual que box-shadow con la única diferencia de que no admite el valor inset
+            ni la expansión de la sombra.
+
+        offsetX: desplazamiento horizontal.
+        offsetY: desplazamiento vertical.
+        blur: desenfoque
+        color: color, por defecto coge el del texto
+        
