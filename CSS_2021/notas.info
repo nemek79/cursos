@@ -530,4 +530,22 @@ https://necolas.github.io/normalize.css/
         offsetY: desplazamiento vertical.
         blur: desenfoque
         color: color, por defecto coge el del texto
-        
+
+- ESPACIADOS EN FUENTES Y TEXTOS
+
+    letter-spacing: Establece la separación entre caracteres, se puede establecer en cualquier medida válidad para CSS.
+    word-spacing: Estable la separación entre palabras, se puede establecer en cualquier medida válida para CSS.
+    line-height: Establece el alto de cada línea, se puede dar una medida concreta o se puede poner un número que se 
+            multiplicará por el font-size del texto al que se lo estemos aplicando.
+    
+- ORIENTACIÓN DEL TEXTO
+
+    writing-mode: Establece la dirección del texto.
+
+
+MEJOR SITIO PARA BUSCAR INFORMACIÓN DE CSS:
+
+- https://developer.mozilla.org/es/
+- https://css-tricks.com/
+- https://caniuse.com/
+
