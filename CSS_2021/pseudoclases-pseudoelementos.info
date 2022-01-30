@@ -1,0 +1,17 @@
+* Pseudoelementos
+========================
+
+- Se utilizan para dar estilo a partes especificas de un elemento.
+- Su sintaxis es: selector::pseudo-elemento{estilos}
+- Existen 5 pseudoelementos (ahora mismo)
+    
+    * ::first-line (elementos de bloque o inline-block)
+    * ::first-letter (elementos de bloque o inline-block)
+    * ::selection -> le da estilo a un trozo que el usuario seleccione. Está quitado de la especificación pero funciona por ahora.
+    
+    * ::before
+    * ::after
+        para estos dos, la propiedad content es obligatoria
+        son elementos de línea
+        son hijos del elemento al que pertenecen
+        son elementos que no existen en el html -> DOM
