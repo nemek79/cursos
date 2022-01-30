@@ -464,3 +464,18 @@ https://necolas.github.io/normalize.css/
 
     Google Fonts: https://fonts.google.com/
 
+- GOOGLE ICONS
+
+    MATERIAL ICONS:
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    MATERIAL ICONS OUTLINED:
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    MATERIAL ICONS TWO TONE:
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Two+Tone" rel="stylesheet">
+    MATERIAL ROUNDED:
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
+    MATERIAL ICONS SHARP:
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
+
+    NOTA: si se usan una gran cantidad de iconos en el proyecto es recomendable usar la libreria remota, en 
+        caso de usar unos pocos iconos es mejor descargarlos en formarto svg y utilizarlo como imágenes
